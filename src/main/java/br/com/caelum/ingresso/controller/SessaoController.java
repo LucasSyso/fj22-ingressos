@@ -29,6 +29,7 @@ public class SessaoController {
 	@Autowired
 	private FilmeDao filmeDao;
 	
+	@Autowired
 	private SessaoDao sessaoDao;
 	
 	@GetMapping("/admin/sessao")
