@@ -51,6 +51,10 @@ public class Ingresso {
 	public BigDecimal getPreco() {
 		return preco;
 	}
+
+	public TipoDeIngresso getTipoDeIngresso() {
+		return this.tipoDeIngresso;
+	}
 	
 	
 	
